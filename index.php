@@ -12,14 +12,14 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Ejercicios Unidad 2</a>
+      <a class="navbar-brand" href="#">Ejercicios unidad 2</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-0 ms-auto mb-2 mb-lg-0">
           <li class="nav-item mx-3">
-            <a class="nav-link active" aria-current="page" href="#">Calculadora interes simple</a>
+            <a class="nav-link active" aria-current="page" href="#">Calculadora interés simple</a>
           </li>
           <li class="nav-item mx-3">
             <a class="nav-link" href="verificadorEdad.php">Verificador de edad</a>
@@ -33,11 +33,11 @@
   </nav>
   <div class="container">
     <div class="container descripcionPagina mt-2 mb-2 fw-bold d-flex flex-column align-items-center justify-content-center">
-      <h1>Calculadora de interes simple</h1>
-      <p>En esta calculadora podras determinar el monto de interes ganados en un determinado tiempo</p>
+      <h1>Calculadora de interés simple</h1>
+      <p>En esta calculadora podras determinar el total de intereses ganados en un determinado tiempo</p>
     </div>
     <div class="card">
-      <h5 class="card-header">Calculadora de interes simple</h5>
+      <h5 class="card-header">Calculadora de interés simple</h5>
       <div class="card-body">
         <form class="row" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
           <div class="col-md-4">
@@ -49,7 +49,7 @@
           <div class="col-md-4">
             <div class="form-floating">
               <input type="number" class="form-control" id="inputTasa" name="inputTasa" placeholder="Ej: 50%" required>
-              <label for="floatingInputGrid">Tasa de interes <span class='texto-rojo'>*</span></label>
+              <label for="floatingInputGrid">Tasa de interés <span class='texto-rojo'>*</span></label>
             </div>
           </div>
           <div class="col-md-4">
@@ -84,7 +84,7 @@
             <div class="col-md-4">
               <div class="form-floating">
                 <input type="text" class="form-control" value="<?php echo(number_format($tasa ?? 0, 0, ',','.'))?>" disabled>
-                <label for="floatingInputGrid">Tasa de interes recibida</label>
+                <label for="floatingInputGrid">Tasa de interés recibida</label>
               </div>
             </div>
             <div class="col-md-4">

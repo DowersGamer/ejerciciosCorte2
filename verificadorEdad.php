@@ -13,14 +13,14 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Ejercicios Unidad 2</a>
+      <a class="navbar-brand" href="#">Ejercicios unidad 2</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-0 ms-auto mb-2 mb-lg-0">
           <li class="nav-item mx-3">
-            <a class="nav-link" aria-current="page" href="index.php">Calculadora interes simple</a>
+            <a class="nav-link" aria-current="page" href="index.php">Calculadora interés simple</a>
           </li>
           <li class="nav-item mx-3">
             <a class="nav-link active" href="#">Verificador de edad</a>

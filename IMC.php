@@ -13,7 +13,7 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Ejercicios Unidad 2</a>
+      <a class="navbar-brand" href="#">Ejercicios unidad 2</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -21,13 +21,13 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-0 ms-auto mb-2 mb-lg-0">
           <li class="nav-item mx-3">
-            <a class="nav-link active" aria-current="page" href="#">Calculadora interes simple</a>
+            <a class="nav-link" href="index.php">Calculadora interés simple</a>
           </li>
           <li class="nav-item mx-3">
             <a class="nav-link" href="verificadorEdad.php">Verificador de edad</a>
           </li>
           <li class="nav-item mx-3">
-            <a class="nav-link" href="#">Calculadora de IMC</a>
+            <a class="nav-link active" aria-current="page" href="#">Calculadora de IMC</a>
           </li>
         </ul>
       </div>
@@ -37,7 +37,7 @@
     <div
       class="container descripcionPagina mt-2 mb-2 fw-bold d-flex flex-column align-items-center justify-content-center">
       <h1>Calculadora de IMC</h1>
-      <p>En esta calculadora podras determinar tu Indice de Masa Corporal</p>
+      <p>En esta calculadora podrás determinar tu índice de masa corporal</p>
     </div>
     <div class="card">
       <h5 class="card-header text-start">Calculadora de IMC</h5>
@@ -79,14 +79,14 @@
             <div class="form-floating">
               <input type="text" class="form-control" value="<?php echo(number_format($peso ?? 0, 2, ',','.'))?>"
                 disabled>
-              <label for="floatingInputGrid">Estatura en Metros</label>
+              <label for="floatingInputGrid">Peso en Kg</label>
             </div>
           </div>
           <div class="col-md-4">
             <div class="form-floating">
               <input type="text" class="form-control" value="<?php echo(number_format($altura ?? 0, 2, ',','.'))?>"
                 disabled>
-              <label for="floatingInputGrid">Peso en Kg</label>
+              <label for="floatingInputGrid">Estatura en Metros</label>
             </div>
           </div>
           <div class="col-md-4">
