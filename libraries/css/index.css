@@ -1,0 +1,19 @@
+.descripcionPagina{
+  background-image: url(https://i.pinimg.com/originals/77/42/0d/77420df3f9e33db5b79ee25455d3340e.png) !important;
+  min-height: 30vh !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  border-radius: 5px;
+  color: white;
+}
+body{
+  background-image: url(https://static.vecteezy.com/system/resources/previews/006/262/406/non_2x/white-abstract-background-backdrop-for-presentation-design-for-website-free-photo.jpg) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  height: 98vh !important;
+}
+.texto-rojo{
+  color: red !important;
+}
